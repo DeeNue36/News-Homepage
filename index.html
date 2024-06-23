@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Web 3.0</title>
+</head>
+<body>
+    <!-- General Container -->
+    <div class="container">
+
+        <!-- Navbar -->
+        <div class="navbar-container">
+            <!-- Logo -->
+            <div class="Logo">
+             <a href="index.html">  
+              <img src="images/logo.svg" class="Logo-image" alt="Logo">
+            </a>
+            </div>
+            <!-- End of Logo -->
+
+            <!-- Navbar Links container -->
+            <div class="nav-container" id="mobile-navcontainer">
+                
+                <!-- Menu/Hamburger & Close Icons -->
+                <a href="javascript:void(0)" class="close-trigger">
+                    <i class="fa-solid fa-xmark" id="close-icon" onclick="closeMenu()"></i>
+                </a>
+                <!-- Navigation Links -->
+                <div class="nav-links" id="mobile-navlinks">
+                <a href="#home"><ul><li>Home</li></ul></a>
+                <a href="#new"><ul><li>New</li></ul></a>
+                <a href="#popular"><ul><li>Popular</li></ul></a>
+                <a href="#trending"><ul><li>Trending</li></ul></a>
+                <a href="#categories"><ul><li>Categories</li></ul></a>
+                </div> 
+                <!-- End of "nav-links" - Navigation Links -->
+                
+            </div> <!-- End of "nav-container" -Navbar links container -->
+
+            <!-- Menu/Hamburger & Close Icons -->
+            <i class="fa-solid fa-bars-staggered" id="menu-icon" onclick="openMenu()"></i>
+            
+        </div> 
+        <!-- End of "navbar-container" - Navigation Bar -->
+
+        <!-- Hero Section Grid Container -->
+        <div class="grid-container">
+
+            <!-- Container for image and content -->
+            <div class="hero-image-content">
+
+                <!-- Hero Image -->
+                <div class="hero-image">
+                    <img class="image" src="images/image-web-3-desktop.jpg" alt="image-web-3-desktop">
+                    <img class="image-mobile" src="images/image-web-3-mobile.jpg" alt="image-web-3-mobile">
+                </div>
+                <!-- End of "hero-image" -->
+
+                <!-- Hero Section Content -->
+                <div class="hero-content">
+                    <!-- Hero Section Header -->
+                     <div class="hero-header">
+                        <h1 class="hero-heading">
+                            The Bright Future of Web 3.0?
+                        </h1>
+                    </div>
+                   
+                    <!-- End of "hero-heading" -->
+
+                    <!-- Hero Section Body -->
+                    <div class="hero-body">
+                        <!-- Hero Section text -->
+                        <p class="hero-body-text">
+                            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
+                        </p>
+                        <!-- Hero Section Button -->
+                        <button class="hero-body-button">
+                            Read More
+                        </button>
+                    </div>
+                    <!-- End of Hero Section Body -->
+
+                    
+                </div> <!-- End of "hero-content" - Hero Section Content -->
+            
+            </div> 
+            <!-- End of "hero-image-content" - Where the hero section images & contents are located->
+            
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar News Header -->
+                <h2 class="sidebar-header" id="new">
+                    New
+                </h2>
+                <!-- End of "sidebar-header" -->
+
+                <!-- Sidebar News Container -->
+                <div class="sidebar-news">
+
+                    <!-- Sidebar News 1 -->
+                    <div class="sidebar-news1">
+                        <h3 class="sidebar-news-heading">
+                            Hydrogen VS Electric Cars
+                        </h3>
+                        <p class="sidebar-news-body">
+                            Will hydrogen-fueled cars ever catch up to EVs?
+                        </p>
+                    </div>
+                    <!-- End of Sidebar News 1 -->
+
+                    <!-- Sidebar News 2 -->
+                    <div class="sidebar-news2">
+                        <h3 class="sidebar-news-heading">
+                            The Downsides of AI Artistry
+                        </h3>
+                        <p class="sidebar-news-body">
+                            What are the possible adverse effects of on-demand AI image generation?
+                        </p>
+                    </div>
+                    <!-- End of Sidebar News 2 -->
+
+                    <!-- Sidebar News 3 -->
+                    <div class="sidebar-news3">
+                        <h3 class="sidebar-news-heading">
+                            Is VC Funding Drying Up?
+                        </h3>
+                        <p class="sidebar-news-body">
+                            Private funding by VC firms is down 50% YOY. We take a look at what that means.
+                        </p>
+                    </div>
+                    <!-- End of Sidebar News 3 -->
+
+                </div> <!-- End of "sidebar-news" - Hero Section Sidebar News Container -->
+
+            </div> 
+            <!-- End of "sidebar" - Hero Section Sidebar-->
+
+        </div>
+        <!-- End of "grid-container" - Hero Section contained in a grid -->
+
+       <!-- Recent News Section (to match with lining of hero content section) -->
+        <div class="recent-news">
+            <!-- News Card 1 -->
+            <div class="recent-news1">
+                <div class="recent-news-image">
+                    <img src="images/image-retro-pcs.jpg" alt="Retro PCs">
+                </div>
+                <div class="recent-news-content">
+                    <h2 class="recent-news-heading">
+                        01
+                    </h2>
+                    <h3 class="recent-news-subheading">
+                        Reviving Retro PCs
+                    </h3>
+                    <p class="recent-news-body">
+                        What happens when old PCs are given modern upgrades
+                    </p>
+                </div>
+            </div>
+            <!-- End of News Card 1 -->
+
+            <!-- News Card 2 -->
+            <div class="recent-news2">
+                <div class="recent-news-image">
+                    <img src="images/image-top-laptops.jpg" alt="Top Laptops">
+                </div>
+                <div class="recent-news-content">
+                    <h2 class="recent-news-heading">
+                        02
+                    </h2>
+                    <h3 class="recent-news-subheading">
+                        Top 10 Laptops of 2022
+                    </h3>
+                    <p class="recent-news-body">
+                        Our best picks for various needs and budgets.
+                    </p>
+                </div>
+            </div>
+            <!-- End of News Card 2 -->
+
+            <!-- News Card 3 -->
+            <div class="recent-news3">
+                <div class="recent-news-image">
+                    <img src="images/image-gaming-growth.jpg" alt="Gaming Growth">
+                </div>
+                <div class="recent-news-content">
+                    <h2 class="recent-news-heading">
+                        03
+                    </h2>
+                    <h3 class="recent-news-subheading">
+                        The Growth of Gaming
+                    </h3>
+                    <p class="recent-news-body">
+                        How the pandemic has sparked fresh opportunities.
+                    </p>
+                </div>
+            </div>
+            <!-- End of News Card 3 -->
+
+        </div> <!-- End of Recent News Section -->
+
+    </div>
+    <!-- End Of General Container -->
+
+    <script src="news.js"></script>
+</body>
+</html>

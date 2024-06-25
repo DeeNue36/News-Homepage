@@ -3,7 +3,7 @@
 :root{
     --primary-color-one: hsl(35, 77%, 62%);
     --primary-color-two: hsl(5, 85%, 63%);
-    --text-color: #fff;
+    --secondary-text-color: #fff;
     --secondary-color-one: hsl(36, 100%, 99%);
     --secondary-color-two: hsl(233, 8%, 79%);
     --secondary-color-three: hsl(236, 13%, 42%);
@@ -70,7 +70,6 @@ body{
 .nav-links a:hover::after{
     transform: scaleX(1);
     transform-origin: 0% 50%;
-  /*   border-bottom: 2px solid #424242; */
 }
   
 .nav-links a ul{
@@ -86,15 +85,8 @@ i#menu-icon {
     cursor: pointer;
 }
 
-a.close-trigger{
+#menu-close{
     display: none;
-    color: inherit;
-}
-
-i#close-icon{
-    padding-top: 12px;
-    font-size: 28px;
-    cursor: pointer;
 }
 
 /* End of Logo & Navbar styling */
@@ -123,7 +115,7 @@ i#close-icon{
 
 .hero-header {
     margin-top: 10px;
-    padding-right: 40px;
+    padding-right: 35px;
 }
 
 .hero-heading {
@@ -164,7 +156,7 @@ i#close-icon{
 .sidebar{
     background-color: var(--secondary-color-four);
     padding: 25px 20px 10px;
-    color: var(--text-color);
+    color: var(--secondary-text-color);
     /* width: 25vw; */
     height: inherit;
 }
@@ -324,7 +316,6 @@ h3.recent-news-subheading{
         display: block;
     }
     #mobile-navcontainer{
-        display: block;
         height: 100%;
         width: 0;
         position: fixed;
@@ -332,22 +323,23 @@ h3.recent-news-subheading{
         right: 0;
         top: 0;
         background-color: rgba(255, 255, 255);
-        overflow-x: hidden;
-        transition: 0.5s;
+        transition: 0.5s ease-in-out;
     }
-    a.close-trigger{
-        display: flex;
-        justify-content: end;
+    #menu-close{
+        margin-left: 85%;
+        height: 12%;
         text-decoration: none;
-    }
-    #close-icon {
-        padding-right: 20px;
-        margin-top: 30px;
-    }
-    #mobile-navlinks {
-        margin-top: 30px;
+        font-size: 64px;
+        color: #000;
         display: inline-block;
+        /* background-image: url('images/icon-menu-close.svg');
+        background-repeat: no-repeat;
+        background-position: top right; */
+    }
+    #mobile-navlinks{
+        display: block;
         padding: 0px 25px;
+        width: 30%;
     }
     #mobile-navlinks a ul{
         padding: 30px 0px 0px;

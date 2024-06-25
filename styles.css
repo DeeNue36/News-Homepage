@@ -148,7 +148,7 @@ i#menu-icon {
 
 .hero-body-button:hover{
     background-color: var(--secondary-color-four);
-    color: var(--text-color);
+    color: var(--secondary-text-color);
     transition: all 350ms ease-in-out;
 }
 

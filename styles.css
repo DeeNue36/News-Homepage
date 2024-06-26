@@ -23,7 +23,7 @@ html{
 
 body{
     font-family: 'Lora', serif;
-    background-color: var(--secondary-color-one);
+    background-color: var(--secondary-color-one) !important;
 }
 
 .container{
@@ -333,6 +333,7 @@ h3.recent-news-subheading{
         font-size: 64px;
         color: #000;
         display: inline-block;
+        /* Close Icon svg */
         /* background-image: url('images/icon-menu-close.svg');
         background-repeat: no-repeat;
         background-position: top right; */

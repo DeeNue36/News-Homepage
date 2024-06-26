@@ -142,6 +142,7 @@ i#menu-icon {
     font-weight: bold;
     padding: 10px 30px;
     margin-top: 58px;
+    color: #000;
     background-color: var(--primary-color-two);
     text-transform: uppercase;
 }

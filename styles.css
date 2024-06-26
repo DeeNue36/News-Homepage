@@ -233,6 +233,10 @@ h2.recent-news-heading {
     cursor: pointer;
 }
 
+.recent-news-heading:focus, .recent-news-subheading:focus{
+    color: var(--primary-color-two);
+}
+
 h3.recent-news-subheading{
     font-size: 16px;
 }

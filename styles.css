@@ -358,6 +358,9 @@ h3.recent-news-subheading{
     .recent-news{
         margin-top: 60px;
     }
+    .recent-news-heading{
+        color: var(--primary-color-two);
+    }
 }
 
 
